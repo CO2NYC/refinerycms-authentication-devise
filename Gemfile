@@ -3,7 +3,7 @@ source "https://rubygems.org"
 gemspec
 
 git "https://github.com/refinery/refinerycms" do
-  gem "refinerycms",  '>=4.0.0.dev'
+  gem "refinerycms", github: 'refinery/refinerycms', branch: 'feature/master/rails-5'
 
   group :test do
     gem "refinerycms-testing"
